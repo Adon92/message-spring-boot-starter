@@ -1,0 +1,2 @@
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.zrd3.http.message.handler.ExceptionHandlerAdvice,com.zrd3.http.message.handler.ResponseMessageHandlerAdvice
