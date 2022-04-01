@@ -7,7 +7,11 @@ Unify the response message body with annotations
 maven pom.xml
 
 ```xml
-&lt;dependency&gt;&#10;  &lt;groupId&gt;com.github.adon92&lt;/groupId&gt;&#10;  &lt;artifactId&gt;message-spring-boot-starter&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0.0&lt;/version&gt;&#10;&lt;/dependency&gt;
+<dependency>
+    <groupId>com.github.adon92</groupId>
+    <artifactId>message-spring-boot-starter</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 
 ```java
