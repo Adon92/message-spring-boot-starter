@@ -1,7 +1,14 @@
 # Overview
+
 Unify the response message body with annotations
 
-# Use
+# Useing
+
+maven pom.xml
+
+```xml
+&lt;dependency&gt;&#10;  &lt;groupId&gt;com.github.adon92&lt;/groupId&gt;&#10;  &lt;artifactId&gt;message-spring-boot-starter&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0.0&lt;/version&gt;&#10;&lt;/dependency&gt;
+```
 
 ```java
 import lombok.Data;
@@ -15,6 +22,7 @@ public class User {
 ```
 
 Introduce annotations `@MessageReponse`
+
 ```java
 
 @MessageResponse
@@ -33,6 +41,7 @@ public class TestController {
 ```
 
 Response Body
+
 ```json
 {
   "success": true,
@@ -45,21 +54,24 @@ Response Body
 ```
 
 Exception Handler
+
 ```java
 // method
 public void Test(){
- // some code
- if(null == object){
-    throw new MessageExcption("error message");    
- }       
-}
+        // some code
+        if(null==object){
+        throw new MessageExcption("error message");
+        }
+        }
 ```
+
 Response Body
+
 ```json
 {
   "success": true,
   "msg": "error message",
   "data": null
-  }
+}
 }
 ```
