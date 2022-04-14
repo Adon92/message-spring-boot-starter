@@ -9,9 +9,9 @@ maven pom.xml
 ```xml
 
 <dependency>
-    <groupId>com.github.adon92</groupId>
+    <groupId>io.github.adon92</groupId>
     <artifactId>message-spring-boot-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
